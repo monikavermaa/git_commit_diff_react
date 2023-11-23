@@ -1,0 +1,143 @@
+.mainDiv {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+}
+
+.header{
+    display: flex;
+    padding: 10px;
+}
+
+.header-left{
+    display: flex;
+    width: 60%;
+}
+
+.header-right{
+    width: 40%;
+}
+
+.header-right p{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.commit-name{
+    font-weight: 600;
+    font-size: 16px;
+    color: #2B3750;
+}
+
+.header-text{
+    font-weight: 400;
+    font-size: 14px;
+    color: #32405D;
+    line-height: 20px;
+}
+
+.author-text{
+    color: #6D727C !important;
+}
+
+.custom-accordion-summary {
+    flex-direction: row-reverse;
+    order: 1; /* Change the order to move the icon to the left */
+  }
+
+  .typography-text{
+    color: #1C7CD6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .renovate-bot{
+    font-weight: 700;
+  }
+
+  .commit-id{
+    font-weight: 700;
+    font-size: 14px;
+    color:  #32405D;
+  }
+
+  .commit{
+    font-weight: 400;
+    font-size: 14px;
+    color: #6D727C;
+  }
+
+.parent-id{
+    color: #1C7CD6;
+    font-weight: 400;
+  }
+
+  .accordian{
+    box-shadow: none !important;
+    position: inherit !important;
+  }
+
+  .collapse-content{
+    border: 1px solid #E7EBF1;
+    border-radius: 2px;
+    padding: 5px;
+  }
+
+  .code-heading{
+    font-weight: 700;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    color:  #6D84B0;
+    line-height: 197px;
+  }
+
+  .code-content{
+    font-weight: 700;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    color:  #657B83;
+    display: grid;
+    grid-template-columns: minmax(1%, max-content) minmax(1%, max-content) 1fr; /* Three columns with equal width */
+    gap: 10px;
+    padding-left: 10px;
+    padding-left: 10px;
+    white-space:pre;
+
+  }
+
+  .code-line-number {
+    color: #6078A9;
+  }
+
+  .remove_code {
+    background-color: #FFE4E9 !important;
+  }
+
+  .add_code {
+    background-color: #D8FFCB !important;
+  }
+
+  .avtar{
+    margin-top: 15px;
+    margin-right: 10px;
+  }
+
+  .code-content > span:nth-child(2) {
+    /* background-color: #F8FBFF; */
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 20px;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .code-content > span:nth-child(1) {
+    width: 20px;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .lineNumber{
+    background-color: #F8FBFF;
+  }
